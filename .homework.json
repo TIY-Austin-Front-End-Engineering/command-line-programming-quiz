@@ -1,0 +1,22 @@
+{
+    "name": "command-line-programming-quiz",
+    "version": "0.0.1",
+    "title": "Command Line Programming Quiz",
+    "description": "Create a programming quiz on the command line to test the skill of your fellow students.",
+    "difficultyModes": [
+        "Normal",
+        "Hard",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript",
+        "boolean logic",
+        "booleans",
+        "numbers",
+        "strings",
+        "types",
+        "if statements"
+    ],
+    "supplementalFiles": [
+    ]
+}

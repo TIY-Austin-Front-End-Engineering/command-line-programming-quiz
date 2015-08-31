@@ -1,7 +1,7 @@
-# Choose Your Own Adventure
+# Command Line Programming Quiz
 
 ## Description
-Create a &quot;choose your own adventure&quot; style game. 
+Create a programming quiz on the command line to test the skill of your fellow students.
 
 
 ## Objectives
@@ -42,19 +42,16 @@ After completing this assignment, you be able to effectively use
 
 
 ## Normal Mode
-Create a classic choose your own adventure type game. Use variables to store player information along with if / else / else if statements to determine what questions a player should be asked next. Use Math.random() in at least one spot to randomly select the outcome of a players decision. You can choose the theme of your game, but some ideas include:
-
-* Find and fight a dragon for a stash of treasure
-* Rescue your friend from a gang of orc kidnappers
-* Fight the empire to restore peace to the galaxy
-* Navigate through the complicated and stressful world of trying to find a job
+Create a quiz for your fellow classmates to take. The quiz should ask at least 15 HTML, CSS and JavaScript related questions. For each of the questions your program should ask the question using console.log and prompt the test taker for an answer. Keep track of the number of total answers that the test taker answers correctly. When the test taker has answered all of the questions display the total number of questions that they answered correctly as well as the percentage that they got right.
 
 ## Hard Mode
-Throughout your adventure, keep track of HP (health points) and gold coins (or some other form of currency). Players should start with 100 health points and lose them as they fight enemies. If their health drops below zero they lose the game. Players should be able to receive gold coins for good deeds and spend them on things within the game.
+* If a test taker gets an answer correct your test should immediately tell them that they were correct. If the test taker gets a question wrong it should tell them that they were wrong and tell them the correct answer.
+* Your answers should be case insensitive. For example, if the answer to a particular question is **div** the test taker should be able to answer **DIV** or **div** or **dIV** and any of those answers should be counted as a correct answer.
+* Try to time the test and inform the user how long they took to complete the test at the end.
 
 ## Nightmare Mode
-Allow users to find or purchase up to three items in the game. Items should help them as they continue on their adventure, either by increasing their health, fighting power, or unlocking secret areas of the game.
-
+* Make your test adaptive. If a user gets a question correct, give them a harder question next time. If they get a question incorrect, give them an easier question next time instead.
+* After the test taker is done taking the test, inform them where they need to improve their skills based on the types of questions that they got wrong. If they answered all of the CSS questions correctly, but the HTML questions only got 50% tell them to brush up on their HTML skills, etc.
 
 ## Notes
 
